@@ -1,0 +1,149 @@
+
+body{
+    background-color: rgb(119, 190, 119);
+}
+.container{
+    position: relative;
+    left: 24.5%;
+    margin-top: 10%;
+    height:500px;
+    width: 50%;
+    background-color: white;
+    border: 1px solid #BFBFBF;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px rgb(246, 166, 96);
+}
+.txt-1{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+.score1-el{
+    font-size: 35px;
+    text-align: justify;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    font-weight: bold;
+}
+.score2-el{
+    font-weight: bold;
+    margin-top: -5.4%;
+    font-size: 35px;
+    margin-left: 65%;
+}
+.scorebox1-el{
+    height: 80px;
+    width: 80px;
+    margin-left: 20%;
+    background-color: antiquewhite;
+}
+.scorebox2-el{
+    background-color: antiquewhite;
+    height:80px;
+    width:80px;
+    margin-left: 66%;
+    margin-top: -14.7%;
+}
+.roll{
+    display: block;
+    background-color:pink;
+    border: none;
+    font-weight: bold;
+    margin-left: 33%;
+    height: 10%;
+    width: 30%;
+    margin-top: 10%;
+
+}
+.roll:hover{
+    cursor: pointer;
+    color: white;
+}
+.score1,.score2{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 19px;
+    text-align: center;
+}
+.reset{
+    display: none;
+    background-color:pink;
+    border: none;
+    font-weight: bold;
+    margin-left: 33%;
+    height: 10%;
+    width: 30%;
+    margin-top: 10%;
+}
+.reset:hover{
+    cursor: pointer;
+    color: white;
+}
+.tenor-gif-embed{
+    width: 10%;
+    height: 30%;
+    margin-left: 50%;
+    position: absolute;
+    
+}
+.img{
+    display: none;
+    width: 150%;
+    height: 150%;
+    margin-left: 196%;
+    margin-top: -150%;
+}
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
